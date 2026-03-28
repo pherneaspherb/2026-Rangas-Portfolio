@@ -55,7 +55,7 @@ function InternshipProjectsSection() {
                             className="block"
                         >
                             <div className="group flex h-full flex-col rounded-2xl border border-white/10 bg-white/[0.06] p-8 shadow-lg transition-all duration-300 ease-out hover:-translate-y-1 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]">
-                                
+
                                 <div>
                                     {/* Icon */}
                                     <div
@@ -96,33 +96,6 @@ function InternshipProjectsSection() {
                                         </span>
                                     ))}
                                 </div>
-
-                                {/* Links */}
-                                <div className="mt-6 flex gap-4 opacity-0 transition group-hover:opacity-100">
-                                    {project.github && (
-                                        <a
-                                            href={project.github}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="text-sm text-cyan-400 hover:underline"
-                                            onClick={(e) => e.stopPropagation()}
-                                        >
-                                            GitHub
-                                        </a>
-                                    )}
-                                    {project.demo && (
-                                        <a
-                                            href={project.demo}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="text-sm text-cyan-400 hover:underline"
-                                            onClick={(e) => e.stopPropagation()}
-                                        >
-                                            Live Demo
-                                        </a>
-                                    )}
-                                </div>
-
                             </div>
                         </Link>
                     );
