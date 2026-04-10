@@ -29,14 +29,6 @@ function InternshipProjectsSection() {
             tech: ["WordPress", "Elementor", "Astra", "Hostinger"],
             icon: Building2,
         },
-        {
-            title: "Prominent Enterprise System",
-            slug: "prominent-enterprise",
-            description:
-                "Assisted in the digitalization process of business documents for multiple Local Government Units (LGUs) as part of a large-scale enterprise system. Responsible for organizing, uploading, and managing documents within the platform to ensure accuracy, proper classification, and accessibility. Contributed to improving data organization and supporting the transition from manual to digital workflows.",
-            tech: ["Document Management", "Data Organization"],
-            icon: FolderKanban,
-        },
     ];
 
     return (
