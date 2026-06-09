@@ -29,14 +29,6 @@ function AcademicProjectsSection() {
       tech: ["Flutter", "Firebase"],
       icon: Leaf,
     },
-    {
-      title: "TyempoPH",
-      slug: "tyempoph",
-      description:
-        "A responsive weather monitoring platform providing real-time updates and forecasts tailored for regions in the Philippines.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      icon: CloudSun,
-    },
   ];
 
   return (
