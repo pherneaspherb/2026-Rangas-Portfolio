@@ -6,7 +6,7 @@ function AboutSection() {
 
       <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.06] p-8 text-xl leading-10 text-white/90 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]">
         <p>
-          I am a 4th-year Information Technology student at West Visayas State
+          I am an Information Technology graduate at West Visayas State
           University (WVSU), specializing in Software Technologies. My passion
           lies in software, web, and mobile development, with a strong focus on
           creating impactful solutions using React, Flutter, Firebase, and
